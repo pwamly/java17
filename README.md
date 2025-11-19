@@ -17,3 +17,14 @@ static
 - always class loads first then object initated hence static variables will always be printed first
 - this used to differentaite the conflicting object field and parameter names in setters
 - setter and getter helps to add more rule to avoid wrong access to the class properties
+- this the current object calling another class etc
+- every contstructor in java has super method
+- every super class in java extends object
+- this method excute constructor of same class
+- folders are called packages
+- java deos not support mult level ineheritance due to ambiguity
+- by default all java class imports java.lang* by default
+- note * means files not folders
+- when sharing packages to the world you need to make it unique so normally reverse the domains name 
+- if property is in another package, you need to make it public. public can be accessed anywhere.
+- private can be used within same class regardless of packages
